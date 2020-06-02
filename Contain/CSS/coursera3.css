@@ -1,0 +1,262 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    /* padding-top: 25px; */
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    float: left;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+    float: left;
+}
+
+.navbar-brand p span {
+    /* Star-K */
+    vertical-align: text-top;
+}
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+   
+    margin-top: -30px;
+
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before{
+	display: table;
+	content: " ";
+	
+}
+.collapse{
+	position: relative;
+	float: right;
+	
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: #e7e7e7;
+}
+.nav>li>a{
+	position: relative;
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+
+
+/* END HEADER */
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    /* End Header */
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-collapse{
+		width: auto;
+		border-top: 0;
+overflow: hidden;
+		box-shadow: none;
+		display: none;
+	}
+	#collapsable-nav{
+		display: none;
+		overflow: hidden;
+	}
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        /* Restaurant name */
+        padding-top: 10px;
+        /* padding-bottom: 10px; */
+        font-size: 5vw;
+        /* 1vw = 1% of viewport width */
+    }
+    .hidden-xs{
+    	display: none;
+    }
+    .navbar-brand p {
+        /* Kosher cert */
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img {
+        /* Star-K */
+        height: 20px;
+    }
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #call-btn>a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    	margin-right: 0;
+    	margin-left: 0;
+    }
+    /* End Header */
+}
+
+
+
+
+.section1,.section2,.section3
+{
+
+  width: 30%;
+  float: left;
+  border: 2px solid black;
+  margin: 1.6%;
+  background-color:  #a3e4d7 ;
+  color:#101820FF;
+}
+
+.section1 h2,.section2 h2,.section3 h2
+{
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  width: 100%;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 5px;
+  color: #FFFF;
+}
+
+.section1 p,.section2 p,.section3 p
+{
+  clear: right;
+  font-size: 21px;
+  padding: 10px;
+}
+
+.section1 h2{background-color:  #a93226 ;}
+.section2 h2{background-color:  #6c3483 ;}
+.section3 h2{background-color:   #641e16 ;}
+
+@media (max-width:991px) and (min-width:768px)
+{
+
+  .container{
+    width: 100%;
+
+  }
+
+  .section3
+  {
+    width: 96%;
+    border: 2px solid black;
+    margin: 2%;
+  }
+  .section1,.section2
+  {
+    width: 48%;
+    float: left;
+    border: 2px solid black;
+    margin: 1%;
+}
+
+}
+
+@media (max-width:767px)
+{
+  .section1,.section2,.section3
+  {
+    width: 96%;
+    border: 2px solid black;
+    margin: 2%;
+  }
+}
+
